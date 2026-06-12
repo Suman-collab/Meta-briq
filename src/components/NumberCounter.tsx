@@ -34,8 +34,9 @@ export default function NumberCounter({
   useEffect(() => {
     return springValue.on("change", (latest) => {
       if (ref.current) {
+        const roundedValue = Math.round(latest);
         ref.current.textContent = Intl.NumberFormat("en-US").format(
-          latest.toFixed(0)
+          roundedValue
         );
       }
     });
