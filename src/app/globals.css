@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #080d0d;
+  --foreground: #ffffff;
+  --primary: #bcea3e;
+  --secondary: #111616;
+  --accent: rgba(255, 255, 255, 0.06);
+  --muted: #6f7781;
+  --nav-gray: #899698;
+  --border: rgba(255, 255, 255, 0.04);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #ffffff;
+    --foreground: #080d0d;
+    --primary: #bcea3e;
+    --secondary: #f4f4f4;
+    --accent: rgba(8, 13, 13, 0.06);
+    --muted: #6f7781;
+    --nav-gray: #899698;
+    --border: rgba(8, 13, 13, 0.04);
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  overflow-x: hidden;
+}
+
+/* Lenis Recommended CSS */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}

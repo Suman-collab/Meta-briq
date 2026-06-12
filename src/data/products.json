@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "Minimalist Ceramic Vase",
+    "price": 85.00,
+    "category": "Home Decor",
+    "image": "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "2",
+    "title": "Lounge Chair Model 01",
+    "price": 1250.00,
+    "category": "Furniture",
+    "image": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "3",
+    "title": "Abstract Table Lamp",
+    "price": 240.00,
+    "category": "Lighting",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "4",
+    "title": "Matte Black Side Table",
+    "price": 315.00,
+    "category": "Furniture",
+    "image": "https://images.unsplash.com/photo-1532372320572-cda25653a26d?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "5",
+    "title": "Woven Wall Hanging",
+    "price": 140.00,
+    "category": "Art",
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "6",
+    "title": "Brutalist Concrete Planter",
+    "price": 65.00,
+    "category": "Garden",
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=800&auto=format&fit=crop"
+  }
+]
